@@ -1,31 +1,20 @@
 {
-  "name": "tech-blog",
+  "name": "tech-blogs",
   "version": "1.0.0",
-  "description": "A CMS-style blog site.",
+  "description": "CMS tech blog",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marlowchu/Tech-Blog.git"
+    "url": "git+https://github.com/ymunye1/Tech-Blogs.git"
   },
-  "author": "Chuck Marlow",
+  "author": "Yasin Munye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Marlowchu/Tech-Blog/issues"
+    "url": "https://github.com/ymunye1/Tech-Blogs/issues"
   },
-  "homepage": "https://github.com/Marlowchu/Tech-Blog#readme",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.2",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.2",
-    "express-handlebars": "^6.0.2",
-    "express-session": "^1.17.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.15.0"
-  }
+  "homepage": "https://github.com/ymunye1/Tech-Blogs#readme"
 }
