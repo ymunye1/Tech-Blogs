@@ -10,7 +10,7 @@
 
  Link to github with code (https://github.com/ymunye1/Tech-Blogs)
 
-Link to deployed site (https://tech-blog-022022.herokuapp.com/) 
+ Link to deployed site (https://tech-blog-022022.herokuapp.com/) 
 
   ![Tech-Blog(Screenshot)](https://user-images.githubusercontent.com/90288817/160259294-8dd2b0ea-d271-4dbc-8df9-9c7547ac495c.png)
 
