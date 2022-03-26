@@ -1,0 +1,17 @@
+[
+  {
+    "name": "New Tech",
+    "description": "Tech is emerging everywhere like never before. As a developer i sm looking forward to all this.",
+    "user_id": 1
+  },
+  {
+    "name": "Rockets ",
+    "description": "Elon Musk new rocket to Mars is going to be one of his greatest achivements",
+    "user_id": 2
+  },
+  {
+    "name": "The designer",
+    "description": "The group only known as the designer is taken credit for its latest heist",
+    "user_id": 3
+  }
+]

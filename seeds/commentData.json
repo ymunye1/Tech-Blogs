@@ -1,0 +1,17 @@
+[
+  {
+    "user_id": 1,
+    "text": "This is so true",
+    "project_id": 1
+  },
+  {
+    "user_id": 2,
+    "text": "Oh yeah",
+    "project_id": 1
+  },
+  {
+    "user_id": 3,
+    "text": "I want to go to Mars",
+    "project_id": 2
+  }
+]
