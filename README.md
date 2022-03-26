@@ -1,7 +1,5 @@
 # 14 Model-View-Controller (MVC): Tech Blog
 
-# Tech-Blog
- 
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
   
@@ -11,6 +9,7 @@
   This webpage was created with Handlebars. This program is a blog site that can create, update, and delete post. users can also comment on post. Users have to sign up and be logged-in in order to use the webpage.
 
   Link to deployed site (https://tech-blog-022022.herokuapp.com/) 
+  
   Link to github with code (https://github.com/ymunye1/Tech-Blogs)
 
   ![Tech-Blog(Screenshot)](https://user-images.githubusercontent.com/90288817/160259294-8dd2b0ea-d271-4dbc-8df9-9c7547ac495c.png)
