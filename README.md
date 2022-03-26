@@ -35,8 +35,9 @@ npm i
 ```
 npm start
 ```
-npm run seed
+
 ```
+npm run seed
 ```
   ## License
 
