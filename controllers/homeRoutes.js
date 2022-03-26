@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
         },
         {
           model: Comment,
-          // attributes: ['text'],
+        
         },
       ],
     });
@@ -111,27 +111,6 @@ router.get('/login', (req, res) => {
   
 
 
-// router.get('/project/:id', async (req, res) => {
-//   try {
-//     const projectData = await Project.findByPk(req.params.id, {
-//       include: [
-//         {
-//           model: User,
-//           attributes: ['username'],
-//         },
-//       ],
-//     });
-
-//     const project = projectData.get({ plain: true });
-
-//     res.render('project', {
-//       ...project,
-//       logged_in: req.session.logged_in
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
 
 router.get('/test', async (req, res) => {
   try {
@@ -147,7 +126,6 @@ router.get('/test', async (req, res) => {
           attributes: ['name', 'text'],
         },
       ],
-      // [{ model: Category},{ model: Tag}],
     });
 
     // Serialize data so the template can read it
@@ -155,11 +133,7 @@ router.get('/test', async (req, res) => {
 
 
     res.send (projects);
-    // Pass serialized data and session flag into template
-    // res.render('homepage', { 
-    //   projects, 
-    //   logged_in: req.session.logged_in 
-    // });
+    
   } catch (err) {
     res.status(500).json(err);
   }

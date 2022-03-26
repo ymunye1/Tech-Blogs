@@ -16,7 +16,6 @@ router.post('/', withAuth, async (req, res) => {
 });
 
 
-// add a edit route
 
 
 router.delete('/:id', withAuth, async (req, res) => {
@@ -61,25 +60,6 @@ router.put('/:id', withAuth, async (req, res) => {
   }
 });
 
-// comment route
-// router.get('/comment', withAuth, async (req, res) => {
-//   try {
-//     // Find the logged in user based on the session ID
-//     const userData = await User.findByPk(req.session.user_id, {
-//       attributes: { exclude: ['password'] },
-//       include: [{ model: Project }],
-//     });
-
-//     const user = userData.get({ plain: true });
-
-//     res.render('homepage', {
-//       ...user,
-//       logged_in: true
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
 
 
 router.post('/comment', withAuth, async (req, res) => {
